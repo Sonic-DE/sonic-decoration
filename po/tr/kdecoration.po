@@ -107,3 +107,23 @@ msgstr "Ekran Yayınından Gizle"
 
 #~ msgid "More actions for this window"
 #~ msgstr "Bu pencere için daha fazla eylem"
+
+msgctxt "@title:menu"
+msgid "File"
+msgstr "Dosya"
+
+msgctxt "@title:menu"
+msgid "Edit"
+msgstr "Düzen"
+
+msgctxt "@title:menu"
+msgid "View"
+msgstr "Görünüm"
+
+msgctxt "@title:menu"
+msgid "Help"
+msgstr "Yardım"
+
+msgctxt "@info:placeholder"
+msgid "Search…"
+msgstr "Ara…"

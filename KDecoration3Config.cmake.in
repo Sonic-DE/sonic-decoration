@@ -2,6 +2,7 @@
 
 include(CMakeFindDependencyMacro)
 find_dependency(Qt6Gui @QT_MIN_VERSION@)
+find_dependency(Qt6Widgets @QT_MIN_VERSION@)
 
 set(KDECORATION_PLUGIN_DIR "org.kde.kdecoration3")
 set(KDECORATION_KCM_PLUGIN_DIR "org.kde.kdecoration3.kcm")

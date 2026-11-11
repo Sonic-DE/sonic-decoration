@@ -118,3 +118,23 @@ msgstr "Skrij za video posnetek zaslona"
 
 #~ msgid "Keep above"
 #~ msgstr "Zadržuj na vrhu"
+
+msgctxt "@title:menu"
+msgid "File"
+msgstr "Datoteka"
+
+msgctxt "@title:menu"
+msgid "Edit"
+msgstr "Uredi"
+
+msgctxt "@title:menu"
+msgid "View"
+msgstr "Pogled"
+
+msgctxt "@title:menu"
+msgid "Help"
+msgstr "Pomoč"
+
+msgctxt "@info:placeholder"
+msgid "Search…"
+msgstr "Poišči…"

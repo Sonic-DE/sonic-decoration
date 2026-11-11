@@ -105,3 +105,23 @@ msgstr ""
 #, kde-format
 msgid "Hide from Screencast"
 msgstr ""
+
+msgctxt "@title:menu"
+msgid "File"
+msgstr "ഫയല്‍"
+
+msgctxt "@title:menu"
+msgid "Edit"
+msgstr "തിരുത്തുക"
+
+msgctxt "@title:menu"
+msgid "View"
+msgstr "കാഴ്ച"
+
+msgctxt "@title:menu"
+msgid "Help"
+msgstr "സഹായം"
+
+msgctxt "@info:placeholder"
+msgid "Search…"
+msgstr "തിരയുക…"

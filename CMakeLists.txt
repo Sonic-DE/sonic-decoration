@@ -38,8 +38,11 @@ ecm_setup_version(${PROJECT_VERSION} VARIABLE_PREFIX KDECORATION3
 find_package(Qt6 ${QT_MIN_VERSION} CONFIG REQUIRED COMPONENTS
     Core
     Gui
+    Widgets
+    DBus
     Test
 )
+find_package(SonicLogging ${KF6_MIN_VERSION} REQUIRED)
 
 # require at least gcc 4.8
 if ("${CMAKE_CXX_COMPILER_ID}" STREQUAL "GNU")

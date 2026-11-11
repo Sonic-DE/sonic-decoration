@@ -108,3 +108,23 @@ msgstr "დამალვა ეკრანის გადაცემიდ�
 
 #~ msgid "More actions for this window"
 #~ msgstr "მეტი ქმედება ამ ფანჯრისთვის"
+
+msgctxt "@title:menu"
+msgid "File"
+msgstr "ფაილი"
+
+msgctxt "@title:menu"
+msgid "Edit"
+msgstr "ჩასწორება"
+
+msgctxt "@title:menu"
+msgid "View"
+msgstr "ხედი"
+
+msgctxt "@title:menu"
+msgid "Help"
+msgstr "დახმარება"
+
+msgctxt "@info:placeholder"
+msgid "Search…"
+msgstr "ძებნა…"

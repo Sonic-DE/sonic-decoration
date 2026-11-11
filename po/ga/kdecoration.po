@@ -105,3 +105,23 @@ msgstr ""
 #, kde-format
 msgid "Hide from Screencast"
 msgstr ""
+
+msgctxt "@title:menu"
+msgid "File"
+msgstr "Comhad"
+
+msgctxt "@title:menu"
+msgid "Edit"
+msgstr "Eagar"
+
+msgctxt "@title:menu"
+msgid "View"
+msgstr "Amharc"
+
+msgctxt "@title:menu"
+msgid "Help"
+msgstr "Cabhair"
+
+msgctxt "@info:placeholder"
+msgid "Search…"
+msgstr "Cuardaigh…"

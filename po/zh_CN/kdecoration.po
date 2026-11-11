@@ -104,3 +104,23 @@ msgstr "此窗口已在录屏中隐藏，点击以显示它。"
 #, kde-format
 msgid "Hide from Screencast"
 msgstr "在录屏中隐藏"
+
+msgctxt "@title:menu"
+msgid "File"
+msgstr "文件"
+
+msgctxt "@title:menu"
+msgid "Edit"
+msgstr "编辑"
+
+msgctxt "@title:menu"
+msgid "View"
+msgstr "视图"
+
+msgctxt "@title:menu"
+msgid "Help"
+msgstr "帮助"
+
+msgctxt "@info:placeholder"
+msgid "Search…"
+msgstr "搜索…"

@@ -107,3 +107,23 @@ msgstr ""
 
 #~ msgid "More actions for this window"
 #~ msgstr "このウィンドウに対するその他のアクション"
+
+msgctxt "@title:menu"
+msgid "File"
+msgstr "ファイル"
+
+msgctxt "@title:menu"
+msgid "Edit"
+msgstr "編集"
+
+msgctxt "@title:menu"
+msgid "View"
+msgstr "表示"
+
+msgctxt "@title:menu"
+msgid "Help"
+msgstr "ヘルプ"
+
+msgctxt "@info:placeholder"
+msgid "Search…"
+msgstr "検索..."

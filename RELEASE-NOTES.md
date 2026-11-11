@@ -2,6 +2,11 @@
 
 Sonic Decoration provides the building blocks for window title bars and borders in SonicDE.
 
+## Unreleased
+
+- Window decoration themes can now show an application's menus (File, Edit, View…) right in the titlebar, at the place of the Application menu button, with a search button that finds any menu item by name.
+- Behind the scenes: automated tests for the titlebar menu, including importing a real menu over D-Bus.
+
 ## 6.8.2 (2026-11-10)
 
 No SonicDE-specific changes in this release; it brings the package up to date with upstream.

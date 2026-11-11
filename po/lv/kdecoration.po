@@ -108,3 +108,23 @@ msgstr "Paslēpt no uzņemšanas"
 
 #~ msgid "More actions for this window"
 #~ msgstr "Vairāk darbību šim logam"
+
+msgctxt "@title:menu"
+msgid "File"
+msgstr "Datne"
+
+msgctxt "@title:menu"
+msgid "Edit"
+msgstr "Rediģēt"
+
+msgctxt "@title:menu"
+msgid "View"
+msgstr "Skats"
+
+msgctxt "@title:menu"
+msgid "Help"
+msgstr "Palīdzība"
+
+msgctxt "@info:placeholder"
+msgid "Search…"
+msgstr "Meklēt..."

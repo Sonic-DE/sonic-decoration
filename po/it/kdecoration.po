@@ -118,3 +118,23 @@ msgstr "Nascondi durante la registrazione"
 
 #~ msgid "Keep above"
 #~ msgstr "Tieni sopra"
+
+msgctxt "@title:menu"
+msgid "File"
+msgstr "File"
+
+msgctxt "@title:menu"
+msgid "Edit"
+msgstr "Modifica"
+
+msgctxt "@title:menu"
+msgid "View"
+msgstr "Visualizza"
+
+msgctxt "@title:menu"
+msgid "Help"
+msgstr "Aiuto"
+
+msgctxt "@info:placeholder"
+msgid "Search…"
+msgstr "Cerca…"

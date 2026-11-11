@@ -119,3 +119,23 @@ msgstr "Ascunde din difuzarea ecranului"
 
 #~ msgid "Keep above"
 #~ msgstr "Ține deasupra"
+
+msgctxt "@title:menu"
+msgid "File"
+msgstr "Fișier"
+
+msgctxt "@title:menu"
+msgid "Edit"
+msgstr "Editare"
+
+msgctxt "@title:menu"
+msgid "View"
+msgstr "Vizualizare"
+
+msgctxt "@title:menu"
+msgid "Help"
+msgstr "Ajutor"
+
+msgctxt "@info:placeholder"
+msgid "Search…"
+msgstr "Caută…"

@@ -117,3 +117,23 @@ msgstr "從螢幕錄製當中隱藏"
 
 #~ msgid "Keep above"
 #~ msgstr "保持於頂部顯示"
+
+msgctxt "@title:menu"
+msgid "File"
+msgstr "檔案"
+
+msgctxt "@title:menu"
+msgid "Edit"
+msgstr "編輯"
+
+msgctxt "@title:menu"
+msgid "View"
+msgstr "檢視"
+
+msgctxt "@title:menu"
+msgid "Help"
+msgstr "說明"
+
+msgctxt "@info:placeholder"
+msgid "Search…"
+msgstr "搜尋…"

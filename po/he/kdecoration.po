@@ -108,3 +108,23 @@ msgstr "הסתרה מהסרטת מסך"
 
 #~ msgid "More actions for this window"
 #~ msgstr "פעולות נוספות לחלון הזה"
+
+msgctxt "@title:menu"
+msgid "File"
+msgstr "קובץ"
+
+msgctxt "@title:menu"
+msgid "Edit"
+msgstr "עריכה"
+
+msgctxt "@title:menu"
+msgid "View"
+msgstr "תצוגה"
+
+msgctxt "@title:menu"
+msgid "Help"
+msgstr "עזרה"
+
+msgctxt "@info:placeholder"
+msgid "Search…"
+msgstr "חיפוש…"

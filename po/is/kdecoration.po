@@ -110,3 +110,23 @@ msgstr "Fela frá skjávörpun"
 
 #~ msgid "More actions for this window"
 #~ msgstr "Fleiri aðgerðir fyrir þennan glugga"
+
+msgctxt "@title:menu"
+msgid "File"
+msgstr "Skrá"
+
+msgctxt "@title:menu"
+msgid "Edit"
+msgstr "Breyta"
+
+msgctxt "@title:menu"
+msgid "View"
+msgstr "Skoða"
+
+msgctxt "@title:menu"
+msgid "Help"
+msgstr "Hjálp"
+
+msgctxt "@info:placeholder"
+msgid "Search…"
+msgstr "Leita…"

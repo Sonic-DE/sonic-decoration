@@ -111,3 +111,23 @@ msgstr ""
 #, kde-format
 msgid "Hide from Screencast"
 msgstr "Oculta dels vídeos de captura de pantalla"
+
+msgctxt "@title:menu"
+msgid "File"
+msgstr "Fitxer"
+
+msgctxt "@title:menu"
+msgid "Edit"
+msgstr "Edita"
+
+msgctxt "@title:menu"
+msgid "View"
+msgstr "Visualitza"
+
+msgctxt "@title:menu"
+msgid "Help"
+msgstr "Ajuda"
+
+msgctxt "@info:placeholder"
+msgid "Search…"
+msgstr "Busca…"

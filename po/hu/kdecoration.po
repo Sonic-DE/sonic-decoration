@@ -119,3 +119,23 @@ msgstr "Elrejtés a képernyőátjátszásból"
 
 #~ msgid "Keep above"
 #~ msgstr "Mindig felül"
+
+msgctxt "@title:menu"
+msgid "File"
+msgstr "Fájl"
+
+msgctxt "@title:menu"
+msgid "Edit"
+msgstr "Szerkesztés"
+
+msgctxt "@title:menu"
+msgid "View"
+msgstr "Nézet"
+
+msgctxt "@title:menu"
+msgid "Help"
+msgstr "Súgó"
+
+msgctxt "@info:placeholder"
+msgid "Search…"
+msgstr "Keresés…"

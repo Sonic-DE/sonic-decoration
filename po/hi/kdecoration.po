@@ -111,3 +111,23 @@ msgstr ""
 
 #~ msgid "Menu"
 #~ msgstr "मेन्यू"
+
+msgctxt "@title:menu"
+msgid "File"
+msgstr "फ़ाइल"
+
+msgctxt "@title:menu"
+msgid "Edit"
+msgstr "संपादन"
+
+msgctxt "@title:menu"
+msgid "View"
+msgstr "देखें"
+
+msgctxt "@title:menu"
+msgid "Help"
+msgstr "मदद"
+
+msgctxt "@info:placeholder"
+msgid "Search…"
+msgstr "खोजें…"

@@ -105,3 +105,23 @@ msgstr "Okno je ve sdílení obrazovky skryté. Stisknutím tlačítka jej zobra
 #, kde-format
 msgid "Hide from Screencast"
 msgstr "Skrýt ze sdílení obrazovky"
+
+msgctxt "@title:menu"
+msgid "File"
+msgstr "Soubor"
+
+msgctxt "@title:menu"
+msgid "Edit"
+msgstr "Úpravy"
+
+msgctxt "@title:menu"
+msgid "View"
+msgstr "Pohled"
+
+msgctxt "@title:menu"
+msgid "Help"
+msgstr "Nápověda"
+
+msgctxt "@info:placeholder"
+msgid "Search…"
+msgstr "Hledat…"

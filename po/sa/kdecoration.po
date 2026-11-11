@@ -108,3 +108,23 @@ msgstr ""
 
 #~ msgid "More actions for this window"
 #~ msgstr "अस्य गवाक्ष कृते अधिकानि क्रियाणि"
+
+msgctxt "@title:menu"
+msgid "File"
+msgstr "सञ्चिका"
+
+msgctxt "@title:menu"
+msgid "Edit"
+msgstr "सम्पादयतु"
+
+msgctxt "@title:menu"
+msgid "View"
+msgstr "दृश्य"
+
+msgctxt "@title:menu"
+msgid "Help"
+msgstr "साहाय्यम्‌"
+
+msgctxt "@info:placeholder"
+msgid "Search…"
+msgstr "अन्वेषण…"

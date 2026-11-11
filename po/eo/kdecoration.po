@@ -106,3 +106,23 @@ msgstr ""
 
 #~ msgid "More actions for this window"
 #~ msgstr "Pliaj agoj por ĉi tiu fenestro"
+
+msgctxt "@title:menu"
+msgid "File"
+msgstr "Dosiero"
+
+msgctxt "@title:menu"
+msgid "Edit"
+msgstr "Redakti"
+
+msgctxt "@title:menu"
+msgid "View"
+msgstr "Vido"
+
+msgctxt "@title:menu"
+msgid "Help"
+msgstr "Helpo"
+
+msgctxt "@info:placeholder"
+msgid "Search…"
+msgstr "Serĉi…"

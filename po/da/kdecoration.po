@@ -115,3 +115,23 @@ msgstr ""
 
 #~ msgid "Keep above"
 #~ msgstr "Hold over"
+
+msgctxt "@title:menu"
+msgid "File"
+msgstr "Fil"
+
+msgctxt "@title:menu"
+msgid "Edit"
+msgstr "Redigér"
+
+msgctxt "@title:menu"
+msgid "View"
+msgstr "Vis"
+
+msgctxt "@title:menu"
+msgid "Help"
+msgstr "Hjælp"
+
+msgctxt "@info:placeholder"
+msgid "Search…"
+msgstr "Søg…"

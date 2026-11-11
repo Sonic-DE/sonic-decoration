@@ -116,3 +116,23 @@ msgstr "스크린캐스트에서 숨기기"
 
 #~ msgid "Keep above"
 #~ msgstr "항상 위에 두기"
+
+msgctxt "@title:menu"
+msgid "File"
+msgstr "파일"
+
+msgctxt "@title:menu"
+msgid "Edit"
+msgstr "편집"
+
+msgctxt "@title:menu"
+msgid "View"
+msgstr "보기"
+
+msgctxt "@title:menu"
+msgid "Help"
+msgstr "도움말"
+
+msgctxt "@info:placeholder"
+msgid "Search…"
+msgstr "검색…"

@@ -108,3 +108,23 @@ msgstr "أخفِ من تسجيل الشاشة"
 
 #~ msgid "More actions for this window"
 #~ msgstr "إجراءات أكثر لهذه النافذة"
+
+msgctxt "@title:menu"
+msgid "File"
+msgstr "ملف"
+
+msgctxt "@title:menu"
+msgid "Edit"
+msgstr "تحرير"
+
+msgctxt "@title:menu"
+msgid "View"
+msgstr "عرض"
+
+msgctxt "@title:menu"
+msgid "Help"
+msgstr "مساعدة"
+
+msgctxt "@info:placeholder"
+msgid "Search…"
+msgstr "ابحث…"

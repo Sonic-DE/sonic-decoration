@@ -106,3 +106,23 @@ msgstr "Vinduet skjules fra skjermdeling. Trykk for å gjøre det synlig"
 #, kde-format
 msgid "Hide from Screencast"
 msgstr "Skjul fra skjermdeling"
+
+msgctxt "@title:menu"
+msgid "File"
+msgstr "Fil"
+
+msgctxt "@title:menu"
+msgid "Edit"
+msgstr "Rediger"
+
+msgctxt "@title:menu"
+msgid "View"
+msgstr "Vis"
+
+msgctxt "@title:menu"
+msgid "Help"
+msgstr "Hjelp"
+
+msgctxt "@info:placeholder"
+msgid "Search…"
+msgstr "Søk …"

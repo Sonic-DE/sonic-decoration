@@ -107,3 +107,23 @@ msgstr "Vindauget er gøymt frå skjermdeling. Trykk for å gjera det synleg."
 #, kde-format
 msgid "Hide from Screencast"
 msgstr "Gøym frå skjermdeling"
+
+msgctxt "@title:menu"
+msgid "File"
+msgstr "Fil"
+
+msgctxt "@title:menu"
+msgid "Edit"
+msgstr "Rediger"
+
+msgctxt "@title:menu"
+msgid "View"
+msgstr "Vis"
+
+msgctxt "@title:menu"
+msgid "Help"
+msgstr "Hjelp"
+
+msgctxt "@info:placeholder"
+msgid "Search…"
+msgstr "Søk …"

@@ -120,3 +120,23 @@ msgstr "Ezkutatu pantaila-grabaziotik"
 
 #~ msgid "Keep above"
 #~ msgstr "Egon gainean"
+
+msgctxt "@title:menu"
+msgid "File"
+msgstr "Fitxategia"
+
+msgctxt "@title:menu"
+msgid "Edit"
+msgstr "Editatu"
+
+msgctxt "@title:menu"
+msgid "View"
+msgstr "Ikusi"
+
+msgctxt "@title:menu"
+msgid "Help"
+msgstr "Laguntza"
+
+msgctxt "@info:placeholder"
+msgid "Search…"
+msgstr "Bilatu…"

@@ -107,3 +107,23 @@ msgstr ""
 
 #~ msgid "More actions for this window"
 #~ msgstr "ਇਸ ਵਿੰਡੋ ਲਈ ਹੋਰ ਕਾਰਵਾਈਆਂ"
+
+msgctxt "@title:menu"
+msgid "File"
+msgstr "ਫਾਇਲ"
+
+msgctxt "@title:menu"
+msgid "Edit"
+msgstr "ਸੋਧ"
+
+msgctxt "@title:menu"
+msgid "View"
+msgstr "ਵੇਖੋ"
+
+msgctxt "@title:menu"
+msgid "Help"
+msgstr "ਮਦਦ"
+
+msgctxt "@info:placeholder"
+msgid "Search…"
+msgstr "…ਖੋਜੋ"

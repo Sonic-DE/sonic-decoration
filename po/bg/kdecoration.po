@@ -104,3 +104,23 @@ msgstr "Прозорецът е скрит от Screencast. Натиснете, 
 #, kde-format
 msgid "Hide from Screencast"
 msgstr "Скриване от предаване на екрана"
+
+msgctxt "@title:menu"
+msgid "File"
+msgstr "Файл"
+
+msgctxt "@title:menu"
+msgid "Edit"
+msgstr "Редактиране"
+
+msgctxt "@title:menu"
+msgid "View"
+msgstr "Преглед"
+
+msgctxt "@title:menu"
+msgid "Help"
+msgstr "Помощ"
+
+msgctxt "@info:placeholder"
+msgid "Search…"
+msgstr "Търсене…"

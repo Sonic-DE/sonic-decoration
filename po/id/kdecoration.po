@@ -117,3 +117,23 @@ msgstr ""
 
 #~ msgid "Keep above"
 #~ msgstr "Tetap di atas"
+
+msgctxt "@title:menu"
+msgid "File"
+msgstr "File"
+
+msgctxt "@title:menu"
+msgid "Edit"
+msgstr "Edit"
+
+msgctxt "@title:menu"
+msgid "View"
+msgstr "Tampilan"
+
+msgctxt "@title:menu"
+msgid "Help"
+msgstr "Bantuan"
+
+msgctxt "@info:placeholder"
+msgid "Search…"
+msgstr "Cari..."

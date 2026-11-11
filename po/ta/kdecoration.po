@@ -107,3 +107,23 @@ msgstr "திரைப்பகிர்விலிருந்து மற�
 
 #~ msgid "More actions for this window"
 #~ msgstr "இச்சாளரத்திற்கான கூடுதல் செயல்கள்"
+
+msgctxt "@title:menu"
+msgid "File"
+msgstr "கோப்பு"
+
+msgctxt "@title:menu"
+msgid "Edit"
+msgstr "திருத்து"
+
+msgctxt "@title:menu"
+msgid "View"
+msgstr "பார்வை"
+
+msgctxt "@title:menu"
+msgid "Help"
+msgstr "உதவி"
+
+msgctxt "@info:placeholder"
+msgid "Search…"
+msgstr "தேடு…"

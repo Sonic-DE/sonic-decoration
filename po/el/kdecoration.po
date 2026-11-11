@@ -116,3 +116,23 @@ msgstr ""
 
 #~ msgid "Keep above"
 #~ msgstr "Να μείνει από πάνω"
+
+msgctxt "@title:menu"
+msgid "File"
+msgstr "Αρχείο"
+
+msgctxt "@title:menu"
+msgid "Edit"
+msgstr "Επεξεργασία"
+
+msgctxt "@title:menu"
+msgid "View"
+msgstr "Προβολή"
+
+msgctxt "@title:menu"
+msgid "Help"
+msgstr "Βοήθεια"
+
+msgctxt "@info:placeholder"
+msgid "Search…"
+msgstr "Αναζήτηση…"

@@ -116,3 +116,23 @@ msgstr "Cela ab Screencast"
 
 #~ msgid "Keep above"
 #~ msgstr "Mantene supra"
+
+msgctxt "@title:menu"
+msgid "File"
+msgstr "File"
+
+msgctxt "@title:menu"
+msgid "Edit"
+msgstr "Edita"
+
+msgctxt "@title:menu"
+msgid "View"
+msgstr "Vide"
+
+msgctxt "@title:menu"
+msgid "Help"
+msgstr "Adjuta"
+
+msgctxt "@info:placeholder"
+msgid "Search…"
+msgstr "Cerca…"

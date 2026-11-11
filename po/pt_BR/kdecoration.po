@@ -119,3 +119,23 @@ msgstr "Ocultar da gravação de tela"
 
 #~ msgid "Keep above"
 #~ msgstr "Manter acima"
+
+msgctxt "@title:menu"
+msgid "File"
+msgstr "Arquivo"
+
+msgctxt "@title:menu"
+msgid "Edit"
+msgstr "Editar"
+
+msgctxt "@title:menu"
+msgid "View"
+msgstr "Exibir"
+
+msgctxt "@title:menu"
+msgid "Help"
+msgstr "Ajuda"
+
+msgctxt "@info:placeholder"
+msgid "Search…"
+msgstr "Pesquisar…"

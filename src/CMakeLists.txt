@@ -81,3 +81,5 @@ install(
     COMPONENT
         Devel
 )
+
+add_subdirectory(titlebarmenu)

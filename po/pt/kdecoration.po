@@ -102,3 +102,23 @@ msgstr ""
 
 #~ msgid "More actions for this window"
 #~ msgstr "Mais acções para esta janela"
+
+msgctxt "@title:menu"
+msgid "File"
+msgstr "Ficheiro"
+
+msgctxt "@title:menu"
+msgid "Edit"
+msgstr "Editar"
+
+msgctxt "@title:menu"
+msgid "View"
+msgstr "Ver"
+
+msgctxt "@title:menu"
+msgid "Help"
+msgstr "Ajuda"
+
+msgctxt "@info:placeholder"
+msgid "Search…"
+msgstr "Procurar…"

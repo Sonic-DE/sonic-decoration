@@ -119,3 +119,23 @@ msgstr "Masquer de l'enregistrement vidéo"
 
 #~ msgid "Keep above"
 #~ msgstr "Conserver au-dessus "
+
+msgctxt "@title:menu"
+msgid "File"
+msgstr "Fichier"
+
+msgctxt "@title:menu"
+msgid "Edit"
+msgstr "Édition"
+
+msgctxt "@title:menu"
+msgid "View"
+msgstr "Affichage"
+
+msgctxt "@title:menu"
+msgid "Help"
+msgstr "Aide"
+
+msgctxt "@info:placeholder"
+msgid "Search…"
+msgstr "Rechercher..."

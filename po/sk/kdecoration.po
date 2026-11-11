@@ -115,3 +115,23 @@ msgstr "Skryť pred vysielaním obrazovky"
 
 #~ msgid "Keep above"
 #~ msgstr "Držať nad"
+
+msgctxt "@title:menu"
+msgid "File"
+msgstr "Súbor"
+
+msgctxt "@title:menu"
+msgid "Edit"
+msgstr "Upraviť"
+
+msgctxt "@title:menu"
+msgid "View"
+msgstr "Zobraziť"
+
+msgctxt "@title:menu"
+msgid "Help"
+msgstr "Pomocník"
+
+msgctxt "@info:placeholder"
+msgid "Search…"
+msgstr "Hľadať..."

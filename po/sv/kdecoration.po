@@ -116,3 +116,23 @@ msgstr "Dölj från skärmsändning"
 
 #~ msgid "Keep above"
 #~ msgstr "Behåll över"
+
+msgctxt "@title:menu"
+msgid "File"
+msgstr "Arkiv"
+
+msgctxt "@title:menu"
+msgid "Edit"
+msgstr "Redigera"
+
+msgctxt "@title:menu"
+msgid "View"
+msgstr "Visa"
+
+msgctxt "@title:menu"
+msgid "Help"
+msgstr "Hjälp"
+
+msgctxt "@info:placeholder"
+msgid "Search…"
+msgstr "Sök…"

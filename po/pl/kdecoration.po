@@ -119,3 +119,23 @@ msgstr "Ukryj z udostępnienia ekranu"
 
 #~ msgid "Keep above"
 #~ msgstr "Zawsze na wierzchu"
+
+msgctxt "@title:menu"
+msgid "File"
+msgstr "Plik"
+
+msgctxt "@title:menu"
+msgid "Edit"
+msgstr "Edycja"
+
+msgctxt "@title:menu"
+msgid "View"
+msgstr "Widok"
+
+msgctxt "@title:menu"
+msgid "Help"
+msgstr "Pomoc"
+
+msgctxt "@info:placeholder"
+msgid "Search…"
+msgstr "Poszukaj…"

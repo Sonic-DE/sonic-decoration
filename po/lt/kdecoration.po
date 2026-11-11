@@ -119,3 +119,23 @@ msgstr "Slėpti, kai filmuojamas ekranas"
 
 #~ msgid "Keep above"
 #~ msgstr "Laikyti viršuje"
+
+msgctxt "@title:menu"
+msgid "File"
+msgstr "Failas"
+
+msgctxt "@title:menu"
+msgid "Edit"
+msgstr "Taisa"
+
+msgctxt "@title:menu"
+msgid "View"
+msgstr "Rodinys"
+
+msgctxt "@title:menu"
+msgid "Help"
+msgstr "Pagalba"
+
+msgctxt "@info:placeholder"
+msgid "Search…"
+msgstr "Ieškoti…"

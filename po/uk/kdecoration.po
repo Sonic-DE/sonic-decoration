@@ -120,3 +120,23 @@ msgstr "Приховати на записі з екрана"
 
 #~ msgid "Keep above"
 #~ msgstr "Тримати зверху"
+
+msgctxt "@title:menu"
+msgid "File"
+msgstr "Файл"
+
+msgctxt "@title:menu"
+msgid "Edit"
+msgstr "Зміни"
+
+msgctxt "@title:menu"
+msgid "View"
+msgstr "Перегляд"
+
+msgctxt "@title:menu"
+msgid "Help"
+msgstr "Довідка"
+
+msgctxt "@info:placeholder"
+msgid "Search…"
+msgstr "Шукати…"

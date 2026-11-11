@@ -117,3 +117,23 @@ msgstr "Verbergen voor schermvideo"
 
 #~ msgid "Keep above"
 #~ msgstr "Altijd op voorgrond"
+
+msgctxt "@title:menu"
+msgid "File"
+msgstr "Bestand"
+
+msgctxt "@title:menu"
+msgid "Edit"
+msgstr "Bewerken"
+
+msgctxt "@title:menu"
+msgid "View"
+msgstr "Beeld"
+
+msgctxt "@title:menu"
+msgid "Help"
+msgstr "Help"
+
+msgctxt "@info:placeholder"
+msgid "Search…"
+msgstr "Zoeken…"

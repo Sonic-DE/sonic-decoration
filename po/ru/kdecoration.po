@@ -120,3 +120,23 @@ msgstr "Скрыть в трансляции экрана"
 
 #~ msgid "Keep above"
 #~ msgstr "Поддерживать поверх других"
+
+msgctxt "@title:menu"
+msgid "File"
+msgstr "Файл"
+
+msgctxt "@title:menu"
+msgid "Edit"
+msgstr "Правка"
+
+msgctxt "@title:menu"
+msgid "View"
+msgstr "Вид"
+
+msgctxt "@title:menu"
+msgid "Help"
+msgstr "Справка"
+
+msgctxt "@info:placeholder"
+msgid "Search…"
+msgstr "Поиск..."
