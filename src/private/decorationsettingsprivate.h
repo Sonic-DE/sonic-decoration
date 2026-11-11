@@ -66,4 +66,13 @@ public:
 protected:
     explicit DecorationSettingsPrivateV2(DecorationSettings *parent);
 };
+
+class KDECORATIONS_PRIVATE_EXPORT DecorationSettingsPrivateV3 : public DecorationSettingsPrivateV2 {
+public:
+    virtual ApplicationMenuStyle applicationMenuStyle() const = 0;
+    virtual bool isApplicationMenuSearchEnabled() const = 0;
+
+protected:
+    explicit DecorationSettingsPrivateV3(DecorationSettings* parent);
+};
 }

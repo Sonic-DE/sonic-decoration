@@ -8,9 +8,9 @@
 
 #include <QPalette>
 
-MockWindow::MockWindow(KDecoration3::DecoratedWindow *client, KDecoration3::Decoration *decoration)
+MockWindow::MockWindow(KDecoration3::DecoratedWindow* client, KDecoration3::Decoration* decoration)
     : QObject()
-    , DecoratedWindowPrivateV4(client, decoration)
+    , DecoratedWindowPrivateV5(client, decoration)
 {
 }
 
@@ -86,7 +86,7 @@ bool MockWindow::isMinimizeable() const
 
 bool MockWindow::isModal() const
 {
-    return false;
+    return m_modal;
 }
 
 bool MockWindow::isMoveable() const
@@ -121,7 +121,7 @@ QPalette MockWindow::palette() const
 
 bool MockWindow::hasApplicationMenu() const
 {
-    return true;
+    return m_hasApplicationMenu;
 }
 
 bool MockWindow::isApplicationMenuActive() const
@@ -302,18 +302,48 @@ qreal MockWindow::nextScale() const
 
 QString MockWindow::applicationMenuServiceName() const
 {
-    return QString();
+    return m_applicationMenuService;
 }
 
 QString MockWindow::applicationMenuObjectPath() const
 {
-    return QString();
+    return m_applicationMenuPath;
 }
 
 void MockWindow::popup(const KDecoration3::Positioner &positioner, QMenu *menu)
 {
-    Q_UNUSED(positioner)
-    Q_UNUSED(menu)
+    Q_EMIT popupRequested(static_cast<void*>(menu), positioner.anchorRect());
+}
+
+void MockWindow::setModal(bool set)
+{
+    m_modal = set;
+}
+
+void MockWindow::setHasApplicationMenu(bool set)
+{
+    if (m_hasApplicationMenu == set) {
+        return;
+    }
+    m_hasApplicationMenu = set;
+    Q_EMIT window()->hasApplicationMenuChanged(set);
+}
+
+void MockWindow::setApplicationMenuAddress(const QString& service, const QString& path)
+{
+    m_applicationMenuService = service;
+    m_applicationMenuPath = path;
+    Q_EMIT window()->applicationMenuChanged();
+}
+
+QPointF MockWindow::position() const
+{
+    return m_position;
+}
+
+void MockWindow::setPosition(const QPointF& position)
+{
+    m_position = position;
 }
 
 #include "moc_mockwindow.cpp"

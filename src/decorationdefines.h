@@ -130,6 +130,25 @@ enum class BorderSize {
 };
 
 /**
+ * How a decoration that supports titlebar menus shows the application menu
+ * at the place of the ApplicationMenu button.
+ **/
+enum class ApplicationMenuStyle {
+    /**
+     * One button that drops down the window's menus as a list.
+     **/
+    SingleButton,
+    /**
+     * The window's menus are always shown as labels in the titlebar.
+     **/
+    AlwaysShown,
+    /**
+     * The labels are shown while the pointer is over the titlebar or a menu is open.
+     **/
+    ShownOnHover,
+};
+
+/**
  * Color groups are used for DecoratedWindow::color().
  * @since 5.3
  **/

@@ -17,6 +17,7 @@
 #include <QtGui/qwindowdefs.h>
 
 #include <memory>
+#include <optional>
 
 namespace KDecoration3
 {
@@ -223,6 +224,11 @@ public:
     qreal width() const;
     qreal height() const;
     QSizeF size() const;
+    /**
+     * The window's top-left corner on screen, decoration included, in the coordinates
+     * Decoration::popup() uses. Empty when the host doesn't report it.
+     */
+    std::optional<QPointF> position() const;
 
     Decoration *decoration() const;
     QPalette palette() const;

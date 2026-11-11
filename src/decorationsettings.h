@@ -89,6 +89,16 @@ class KDECORATIONS3_EXPORT DecorationSettings : public QObject
      * size and DPI into account.
      */
     Q_PROPERTY(int largeSpacing READ largeSpacing NOTIFY spacingChanged)
+    /**
+     * How the application menu is shown at the place of the ApplicationMenu button,
+     * by decorations that support titlebar menus.
+     **/
+    Q_PROPERTY(KDecoration3::ApplicationMenuStyle applicationMenuStyle READ applicationMenuStyle NOTIFY applicationMenuStyleChanged)
+    /**
+     * Whether a search button is shown with the application menu, by decorations that
+     * support titlebar menus.
+     **/
+    Q_PROPERTY(bool applicationMenuSearchEnabled READ isApplicationMenuSearchEnabled NOTIFY applicationMenuSearchEnabledChanged)
 public:
     explicit DecorationSettings(DecorationBridge *bridge, QObject *parent = nullptr);
     ~DecorationSettings() override;
@@ -111,6 +121,16 @@ public:
     int smallSpacing() const;
     int largeSpacing() const;
 
+    /**
+     * The application menu style; SingleButton when the host doesn't provide one.
+     **/
+    ApplicationMenuStyle applicationMenuStyle() const;
+    /**
+     * Whether to show a search button with the application menu; true when the host
+     * doesn't provide the setting.
+     **/
+    bool isApplicationMenuSearchEnabled() const;
+
 Q_SIGNALS:
     void onAllDesktopsAvailableChanged(bool);
     void alphaChannelSupportedChanged(bool);
@@ -130,6 +150,9 @@ Q_SIGNALS:
      **/
     void reconfigured();
 
+    void applicationMenuStyleChanged(KDecoration3::ApplicationMenuStyle style);
+    void applicationMenuSearchEnabledChanged(bool enabled);
+
 private:
     const std::unique_ptr<DecorationSettingsPrivate> d;
 };
@@ -137,3 +160,4 @@ private:
 }
 
 Q_DECLARE_METATYPE(KDecoration3::BorderSize)
+Q_DECLARE_METATYPE(KDecoration3::ApplicationMenuStyle)

@@ -99,6 +99,22 @@ bool DecorationSettings::isAlwaysShowExcludeFromCapture() const
     }
     return false;
 }
+
+ApplicationMenuStyle DecorationSettings::applicationMenuStyle() const
+{
+    if (auto impl = dynamic_cast<DecorationSettingsPrivateV3*>(d.get())) {
+        return impl->applicationMenuStyle();
+    }
+    return ApplicationMenuStyle::SingleButton;
+}
+
+bool DecorationSettings::isApplicationMenuSearchEnabled() const
+{
+    if (auto impl = dynamic_cast<DecorationSettingsPrivateV3*>(d.get())) {
+        return impl->isApplicationMenuSearchEnabled();
+    }
+    return true;
+}
 }
 
 #include "moc_decorationsettings.cpp"

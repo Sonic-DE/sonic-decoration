@@ -6,8 +6,8 @@
 #include "mocksettings.h"
 #include "../src/decorationsettings.h"
 
-MockSettings::MockSettings(KDecoration3::DecorationSettings *parent)
-    : DecorationSettingsPrivateV2(parent)
+MockSettings::MockSettings(KDecoration3::DecorationSettings* parent)
+    : DecorationSettingsPrivateV3(parent)
 {
 }
 
@@ -71,4 +71,32 @@ void MockSettings::setAlwaysShowExcludeFromCapture(bool set)
     }
     m_alwaysShowExcludeFromCapture = set;
     Q_EMIT decorationSettings()->alwaysShowExcludeFromCaptureChanged(m_alwaysShowExcludeFromCapture);
+}
+
+KDecoration3::ApplicationMenuStyle MockSettings::applicationMenuStyle() const
+{
+    return m_applicationMenuStyle;
+}
+
+bool MockSettings::isApplicationMenuSearchEnabled() const
+{
+    return m_applicationMenuSearchEnabled;
+}
+
+void MockSettings::setApplicationMenuStyle(KDecoration3::ApplicationMenuStyle style)
+{
+    if (m_applicationMenuStyle == style) {
+        return;
+    }
+    m_applicationMenuStyle = style;
+    Q_EMIT decorationSettings()->applicationMenuStyleChanged(m_applicationMenuStyle);
+}
+
+void MockSettings::setApplicationMenuSearchEnabled(bool set)
+{
+    if (m_applicationMenuSearchEnabled == set) {
+        return;
+    }
+    m_applicationMenuSearchEnabled = set;
+    Q_EMIT decorationSettings()->applicationMenuSearchEnabledChanged(m_applicationMenuSearchEnabled);
 }

@@ -204,6 +204,14 @@ QString DecoratedWindow::applicationMenuObjectPath() const
     return QString();
 }
 
+std::optional<QPointF> DecoratedWindow::position() const
+{
+    if (auto impl = dynamic_cast<DecoratedWindowPrivateV5*>(d.get())) {
+        return impl->position();
+    }
+    return std::nullopt;
+}
+
 } // namespace
 
 #include "moc_decoratedwindow.cpp"

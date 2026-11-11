@@ -7,8 +7,7 @@
 
 #include "../src/private/decorationsettingsprivate.h"
 
-class MockSettings : public KDecoration3::DecorationSettingsPrivateV2
-{
+class MockSettings : public KDecoration3::DecorationSettingsPrivateV3 {
 public:
     explicit MockSettings(KDecoration3::DecorationSettings *parent);
 
@@ -19,13 +18,19 @@ public:
     bool isCloseOnDoubleClickOnMenu() const override;
     bool isOnAllDesktopsAvailable() const override;
     bool isAlwaysShowExcludeFromCapture() const override;
+    KDecoration3::ApplicationMenuStyle applicationMenuStyle() const override;
+    bool isApplicationMenuSearchEnabled() const override;
 
     void setOnAllDesktopsAvailabe(bool set);
     void setCloseOnDoubleClickOnMenu(bool set);
     void setAlwaysShowExcludeFromCapture(bool set);
+    void setApplicationMenuStyle(KDecoration3::ApplicationMenuStyle style);
+    void setApplicationMenuSearchEnabled(bool set);
 
 private:
     bool m_onAllDesktopsAvailable = false;
     bool m_closeDoubleClickOnMenu = false;
     bool m_alwaysShowExcludeFromCapture = false;
+    KDecoration3::ApplicationMenuStyle m_applicationMenuStyle = KDecoration3::ApplicationMenuStyle::SingleButton;
+    bool m_applicationMenuSearchEnabled = true;
 };

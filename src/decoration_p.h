@@ -50,6 +50,7 @@ public:
     std::shared_ptr<DecorationShadow> shadow;
     std::shared_ptr<DecorationState> next;
     std::shared_ptr<DecorationState> current;
+    std::function<void(int)> applicationMenuHandler;
 
 private:
     Decoration *q;

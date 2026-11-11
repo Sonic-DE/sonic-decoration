@@ -353,8 +353,17 @@ void Decoration::requestToggleMaximization(Qt::MouseButtons buttons)
     d->client->d->requestToggleMaximization(buttons);
 }
 
+void Decoration::setApplicationMenuHandler(std::function<void(int actionId)> handler)
+{
+    d->applicationMenuHandler = std::move(handler);
+}
+
 void Decoration::showApplicationMenu(int actionId)
 {
+    if (d->applicationMenuHandler) {
+        d->applicationMenuHandler(actionId);
+        return;
+    }
     const auto it = std::find_if(d->buttons.constBegin(), d->buttons.constEnd(), [](DecorationButton *button) {
         return button->type() == DecorationButtonType::ApplicationMenu;
     });

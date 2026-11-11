@@ -86,4 +86,9 @@ DecorationSettingsPrivateV2::DecorationSettingsPrivateV2(DecorationSettings *par
     : DecorationSettingsPrivate(parent)
 {
 }
+
+DecorationSettingsPrivateV3::DecorationSettingsPrivateV3(DecorationSettings* parent)
+    : DecorationSettingsPrivateV2(parent)
+{
+}
 }

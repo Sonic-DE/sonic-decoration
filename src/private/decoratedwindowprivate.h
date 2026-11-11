@@ -9,6 +9,7 @@
 #include <kdecoration3/private/kdecoration3_private_export.h>
 
 #include <QIcon>
+#include <QPointF>
 #include <QString>
 
 class QMenu;
@@ -122,6 +123,14 @@ public:
 
 protected:
     explicit DecoratedWindowPrivateV4(DecoratedWindow *client, Decoration *decoration);
+};
+
+class KDECORATIONS_PRIVATE_EXPORT DecoratedWindowPrivateV5 : public DecoratedWindowPrivateV4 {
+public:
+    virtual QPointF position() const = 0;
+
+protected:
+    explicit DecoratedWindowPrivateV5(DecoratedWindow* client, Decoration* decoration);
 };
 
 } // namespace

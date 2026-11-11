@@ -325,6 +325,12 @@ public:
      */
     void popup(const Positioner &positioner, QMenu *menu);
 
+    /**
+     * While \a handler is set, showApplicationMenu() calls it instead of asking the host
+     * to show the application menu. An empty function restores the default.
+     */
+    void setApplicationMenuHandler(std::function<void(int actionId)> handler);
+
 public Q_SLOTS:
     void requestClose();
     void requestToggleMaximization(Qt::MouseButtons buttons);
