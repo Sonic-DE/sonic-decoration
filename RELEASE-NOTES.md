@@ -13,11 +13,11 @@ No SonicDE-specific changes in this release; it brings the package up to date wi
 
 ## 6.8.0 (2026-10-20)
 
-- Behind the scenes: version update.
+No SonicDE-specific changes in this release; it brings the package up to date with upstream.
 
 ## 6.7.5 (2026-09-12)
 
-- Behind the scenes: version update.
+No SonicDE-specific changes in this release; it brings the package up to date with upstream.
 
 ## 6.7.4 (2026-08-03)
 
